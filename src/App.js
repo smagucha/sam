@@ -2,6 +2,9 @@ import React from "react";
 import Hello from "./hello";
 import Tweet from "./tweet";
 import Kustate from "./showstate";
+import Helloworld from './klass'
+import Hookexample from './hook'
+import './App.css'
 
 function App(){
   return(
@@ -10,9 +13,9 @@ function App(){
       <Hello name ='magucha'/>
       <button>build</button>
       <Tweet name ='sammy' />
-      <Tweet name ='nick'/>
-      <Tweet name ='ben'/>
       <Kustate />
+      <Helloworld />
+      <Hookexample />
     </div>
   );
 }

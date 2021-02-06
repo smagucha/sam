@@ -7,6 +7,6 @@ function Tweet(props){
     <p>this is a random tweet</p>
     <h3>number of tweets</h3>
     </div>
-  )
+  );
 }
 export default Tweet;
